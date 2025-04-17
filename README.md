@@ -1,4 +1,4 @@
-# Deception_Detection# Deception Detection in Diplomacy
+# Deception Detection in Diplomacy
 
 This repository contains code, notebooks, and data for reproducing experiments on detecting deception in the board game Diplomacy. We propose and compare two complementary models:
 

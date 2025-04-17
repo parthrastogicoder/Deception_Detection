@@ -48,18 +48,14 @@ This repository contains code, notebooks, and data for reproducing experiments o
 - NumPy, Pandas, scikit-learn
 - Jupyter Notebook or JupyterLab
 
-Install via:
-```bash
-pip install -r requirements.txt
-```
 
 ## Data Setup
-1. **HiS‑Attention embeddings**: Download from Kaggle:
+1. **HiS‑Attention model**: Download from Kaggle:
    ```bash
    kaggle datasets download -d harsh99429/attention-tranformer-all-embed
    unzip attention-tranformer-all-embed.zip -d data/embeddings
    ```
-2. **Diplomacy Deception dataset**: Place raw JSON/CSV files under `data/raw/` if not included.
+2. **Diplomacy Deception dataset**: Placed in data directory
 
 ## Model Weights
 - Copy `gat_model.pt` to `models/` before running `gatmodel.ipynb`.
@@ -93,6 +89,5 @@ Find comprehensive quantitative and qualitative error analyses in Sections 6 of 
 - Enhance linguistic cue extraction using LIWC for richer psychological features.
 - Fine‑tune large language models specifically for deception understanding.
 
-## License
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
+
 
